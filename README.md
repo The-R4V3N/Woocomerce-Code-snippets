@@ -29,7 +29,7 @@ WANT TO KNOW MORE ABOUT ME? [FOLLOW THE LINK](https://the-r4v3n.github.io/github
 ----
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=rishavanand&&style=flat-square" align="center" />
+<img src="https://komarev.com/ghpvc/?username=rishavanandthe-r4v3n&&style=flat-square" align="center" />
 </div>  
 
 <br />
