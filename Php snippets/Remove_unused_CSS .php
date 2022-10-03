@@ -1,4 +1,6 @@
 <?php
+// This snippet Removes unused CSS in the Flatsome Theme.
+
 add_action('wp_head', 'inject_flatsome', 5);
 function inject_flatsome() {
 ob_start();

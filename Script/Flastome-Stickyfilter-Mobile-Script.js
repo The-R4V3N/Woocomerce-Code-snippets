@@ -5,7 +5,7 @@ var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
 if (top <= 200) {
 jQuery(".category-filtering.category-filter-row.show-for-medium").css({
 "position": "static"
-});
+}
 } else {
 jQuery(".category-filtering.category-filter-row.show-for-medium").css({
 "height": "44px",
@@ -24,7 +24,7 @@ jQuery(".category-filtering.category-filter-row.show-for-medium").css({
 "-moz-transition": "opacity .5s linear 0.2s",
 "transition": "opacity .5s linear 0.2s",
 "opacity": ".85"
-});
 }
-};
+}
+}
 </script>

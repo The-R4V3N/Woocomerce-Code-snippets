@@ -1,5 +1,7 @@
 <?php
 
+//This snippet insert a secured by Paypal image on your Checkout page.
+
 add_action( 'woocommerce_review_order_after_submit', 'bbloomer_trust_place_order' );
   
 function bbloomer_trust_place_order() {

@@ -1,5 +1,7 @@
 <?php
 
+//This snippet adds a upsell section to your Thank you Page.
+
 add_action( 'woocommerce_thankyou', 'bbloomer_thankyou_upsell', 5 );
   
 function bbloomer_thankyou_upsell() {

@@ -1,5 +1,7 @@
 <?php
 
+//This code snippet creates Product Add-ons on the Single Product page.
+
 add_action( 'woocommerce_before_add_to_cart_quantity', 'bbloomer_gift_wrap', 35 );
    
 function bbloomer_gift_wrap() {    
