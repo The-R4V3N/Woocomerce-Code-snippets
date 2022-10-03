@@ -1,13 +1,35 @@
-# Woocomerce-Code-snippets
+# <div align="center">Hey 👋, I'm Oliver Joisten!</div>  
 
-Welcome to the Woocomerce-Code-snippets!
+----
 
-Here you will find useful Code snippets in php and css for you Wordpress / Woocommerce shop.
+<div align="center">
+<a href="https://github.com/The-R4V3N" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://linkedin.com/in/oliver-joisten" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.facebook.com/oliver.joisten" target="_blank">
+<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
+</a>  
+</div>  
 
-Just find the snippet you like and copy it to your child theme function.php
+## Glad to see you here  
 
-Or you can use the Code snippets WordPress plugin to add the code snippet.
+IN THIS REPOSITORY YOU FIND USEFULL WORDPRESS / WOOCOMERCE-CODE-SNIPPETS!</br>
+JUST FIND THE SNIPPET YOU LIKE AND COPY IT TO YOUR CHILD THEME FUNCTION.PHP.</br>
+OR YOU COULD USE THE CODE SNIPPETS WORDPRESS PLUGIN TO ADD THE CODE SNIPPET.</br>
+YOU WILL FIND SOME SNIPPETS THAT ARE ESPACIALLY FOR THE FLATSOME THEME, THE REASON FOR THAT IS I USE THIS THEME PERSONALLY.</br>
+IF YOU DON'T KNOW IT GO [CHECK IT OUT](https://flatsome3.uxthemes.com/)</br>
 
-You will find some snippets that are especially for Flatsome Theme the reason for that is i use this theme personally.
+WANT TO KNOW MORE ABOUT ME? [FOLLOW THE LINK](https://the-r4v3n.github.io/github.io/#)  
 
-If you dont know it go check it out.
+<br/>  
+
+----
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=rishavanand&&style=flat-square" align="center" />
+</div>  
+
+<br />
