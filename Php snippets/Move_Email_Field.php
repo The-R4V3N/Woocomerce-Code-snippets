@@ -1,7 +1,13 @@
 <?php
 
-/*This code snippet moves the email filed to the top on the checkout page.*/
-
+/**
+ * @snippet       Move Email Field To Top @ Checkout Page
+ * @how-to        Get CustomizeWoo.com FREE
+ * @author        Rodolfo Melogli
+ * @compatible    Woo 4.9
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
+  
 add_filter( 'woocommerce_billing_fields', 'bbloomer_move_checkout_email_field' );
  
 function bbloomer_move_checkout_email_field( $address_fields ) {

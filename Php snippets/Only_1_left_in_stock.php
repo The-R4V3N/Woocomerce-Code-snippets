@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @snippet       “Only 1 left in stock” @ Single Product Page
+ * @how-to        Get CustomizeWoo.com FREE
+ * @author        Rodolfo Melogli
+ * @compatible    WooCommerce 6
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
+
 add_filter( 'woocommerce_get_availability_text', 'bbloomer_edit_left_stock', 9999, 2 );
  
 function bbloomer_edit_left_stock( $text, $product ) {

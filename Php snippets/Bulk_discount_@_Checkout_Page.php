@@ -1,12 +1,34 @@
 <?php
-
-add_action( 'woocommerce_before_cart', 'bbloomer_apply_bulk_coupon' );
-  
-function bbloomer_apply_bulk_coupon() {
-    $coupon_code = 'bulk';
-   if ( WC()->cart->get_cart_contents_count() > 5 ) {
-       if ( ! WC()->cart->has_discount( $coupon_code ) ) WC()->cart->add_discount( $coupon_code );
-   } else {
-      if ( WC()->cart->has_discount( $coupon_code ) ) WC()->cart->remove_coupon( $coupon_code );
-   }
-}
+/**
+ * @snippet       Bulk (Dynamic) Pricing - WooCommerce
+ * @how-to        Get CustomizeWoo.com FREE
+ * @author        Rodolfo Melogli
+ * @compatible    WooCommerce 3.8
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
+ 
+add_action( 'woocommerce_before_calculate_totals', 'bbloomer_quantity_based_pricing', 9999 );
+ 
+function bbloomer_quantity_based_pricing( $cart ) {
+ 
+    if ( is_admin() && ! defined( 'DOING_AJAX' ) ) return;
+ 
+    if ( did_action( 'woocommerce_before_calculate_totals' ) >= 2 ) return;
+ 
+    // Define discount rules and thresholds
+    $threshold1 = 101; // Change price if items > 100
+    $discount1 = 0.05; // Reduce unit price by 5%
+    $threshold2 = 1001; // Change price if items > 1000
+    $discount2 = 0.1; // Reduce unit price by 10%
+ 
+    foreach ( $cart->get_cart() as $cart_item_key => $cart_item ) {
+      if ( $cart_item['quantity'] >= $threshold1 && $cart_item['quantity'] < $threshold2 ) {
+         $price = round( $cart_item['data']->get_price() * ( 1 - $discount1 ), 2 );
+         $cart_item['data']->set_price( $price );
+      } elseif ( $cart_item['quantity'] >= $threshold2 ) {
+         $price = round( $cart_item['data']->get_price() * ( 1 - $discount2 ), 2 );
+         $cart_item['data']->set_price( $price );
+      }    
+    }
+    
+ }

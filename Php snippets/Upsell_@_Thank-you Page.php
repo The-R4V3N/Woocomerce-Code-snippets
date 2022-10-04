@@ -1,10 +1,17 @@
 <?php
 
 //This snippet adds a upsell section to your Thank you Page.
-
-add_action( 'woocommerce_thankyou', 'bbloomer_thankyou_upsell', 5 );
-  
-function bbloomer_thankyou_upsell() {
-echo '<h2>Customers also bought...</h2>';
-echo do_shortcode( '[products limit="3" columns="3" orderby="popularity" on_sale="true" ]' );
+/**
+ * @snippet       Display Product Shortcode @ WC Thank You
+ * @how-to        Get CustomizeWoo.com FREE
+ * @author        Rodolfo Melogli
+ * @testedwith    WooCommerce 3.8
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
+ 
+add_action( 'woocommerce_thankyou', 'bbloomer_upsells_thankyou' );
+ 
+function bbloomer_upsells_thankyou() {
+   echo '<h2>Buy Some More?</h2>';
+   echo do_shortcode( '[[products ids="186177,186179,186181"]]' );
 }
