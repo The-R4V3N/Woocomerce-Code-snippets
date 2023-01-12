@@ -28,7 +28,7 @@ OR YOU COULD USE THE CODE SNIPPETS WORDPRESS PLUGIN TO ADD THE CODE SNIPPET.</br
 YOU WILL FIND SOME SNIPPETS THAT ARE ESPACIALLY FOR THE FLATSOME THEME, THE REASON FOR THAT IS I USE THIS THEME PERSONALLY.</br>
 IF YOU DON'T KNOW IT GO [CHECK IT OUT](https://flatsome3.uxthemes.com/)</br>
 
-WANT TO KNOW MORE ABOUT ME? [FOLLOW THE LINK](https://the-r4v3n.github.io/github.io/#)  
+- 👨‍💻 All about me is at [My Website](https://www.oliver-joisten.se/)
 
 <br/>  
 
