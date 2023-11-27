@@ -20,6 +20,8 @@
 </a>  
 </div>
 
+![Lines of code](https://tokei.rs/b1/github/The-R4V3N/Woocomerce-Code-snippets)
+
 ## Glad to see you here  
 
 IN THIS REPOSITORY YOU FIND USEFULL WORDPRESS / WOOCOMERCE-CODE-SNIPPETS!</br>
