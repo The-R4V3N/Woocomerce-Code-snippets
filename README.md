@@ -38,6 +38,7 @@ IF YOU DON'T KNOW IT GO [CHECK IT OUT](https://flatsome3.uxthemes.com/)</br>
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=rishavanandthe-r4v3n&&style=flat-square" align="center" />
+![Lines of code](https://tokei.rs/b1/github/The-R4V3N/Woocomerce-Code-snippets)
 </div>  
 
 <br />
